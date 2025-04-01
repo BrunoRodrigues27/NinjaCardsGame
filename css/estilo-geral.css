@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Gagalin';
-    src: url('../fonts/Gagalin-Regular.otf') format('truetype'); /* Ajuste o caminho se necessário */
+    src: url('/fonts/Gagalin-Regular.otf') format('truetype'); /* Ajuste o caminho se necessário */
     font-weight: normal;
     font-style: normal;
 }
