@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definição de Confrontos</title>
+    <link rel="shortcut icon" href="/img/imagens-index/imagens-ico/ninja.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/estilo-p-confrontos.css">
+    
+</head>
+<body>
+    <main id="caixa-principal">
+        <section id="caixa-nomes">
+            <h1>Confrontos</h1>
+            <div class="caixote">
+                <img id="ninja" src="../img/imagens-p-confrontos/ninja2.png" alt="">
+                <input minlength="3" maxlength="25" type="text" name="add-nome" id="adicionarnome" placeholder="Digite o nome do ninja.">
+                <img id="estrela" src="../img/imagens-p-confrontos/estrela-nija.png" alt="">
+            </div>
+            <button id="btnenviarnome">Enviar Nome</button>
+        </section>
+        <h2>Incrição</h2>
+        <section id="folhadenomes">
+            <ul id="listalutadores">
+            </ul>
+            <img id="lapis" src="../img/imagens-p-confrontos/lapis.png" alt="">
+        </section>
+        <button class="boteoes" id="btnLimpar">Limpar lista</button>
+        <section id="sorteador">
+            <button id="btnSortear">Sortear Confronto</button>
+        </section>
+        <section id="confrontos-sorteados">
+            <div class="sorteio-nome">
+                <p id="nome1"></p>
+            </div>
+            <img id="vs" src="../img/imagens-p-confrontos/vs.png" alt="">
+            <div class="sorteio-nome">
+                <p id="nome2"></p>
+            </div>
+        </section>
+        <section id="aperte">
+            <button class="boteoes" id="btnPlay">Tocar Música</button>
+            <button class="boteoes" id="btnStop">Parar Música</button>
+        </section>
+        <div id="zerae">
+            <button id="zerar-nomes-sorteados">Zerar Confronto</button>
+            <button id="voltar-inicio">Voltar ao Início</button>
+        </div>
+    </main>
+    
+    <script src="../js/script-p-confrontos.js"></script>
+</body>
+</html>

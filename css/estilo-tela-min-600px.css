@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+
+    header{
+        height: 350px;
+        background-size: contain;
+        
+    }
+
+    nav#menu{
+        display: flex;
+        
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    span.material-symbols-outlined{
+        display: none;
+    }
+
+    h1{
+        background-color:  rgb(2, 62, 102);
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+
+    h3{
+        background-color: rgb(2, 62, 102);
+        padding: 10px;
+    }
+
+    h1,h3{
+        border-radius: 15px;
+    }
+
+    nav {
+        height: 60px;
+    }   
+
+    section#desc{
+        width: 50%;
+    }
+
+    main{
+        display: flex;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    section#foto{
+        display: flex;
+        flex-direction: column;
+        
+                
+    }
+
+    section#foto > h2{
+        
+        font-size: 2.5em;
+    }
+
+    img#cidade{
+        
+        height: 800px;
+    }
+
+    div#naruto{
+        display: flex;
+    }
+
+    iframe{
+        width: 100% !important;
+    }
+
+    div.caixas{
+        margin-bottom: 25px;
+    }
+    
+}
